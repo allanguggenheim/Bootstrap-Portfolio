@@ -58,17 +58,17 @@ h3 {
 /*animation*/
 
     /*position: relative;*/
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-name: masterhead; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
-    animation-name: example;
+    animation-name: masterhead;
     animation-duration: 1s;
     animation-iteration-count: 1;
 
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes example {
+@-webkit-keyframes masterhead {
     0%   {left:0px; top:-120px;}
     25%  {left:0px; top:-80px;}
     50%  {left:0px; top:-20px;}
@@ -77,7 +77,7 @@ h3 {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes masterhead {
     0%   {left:0px; top:-120px;}
     25%  {left:0px; top:-80px;}
     50%  {left:0px; top:-20px;}
@@ -279,7 +279,7 @@ input[type=submit] {
 	margin-left: 5%;
 	max-width: 90%;
 }
-nav
+nav {
 	display: inline-block;
 	float: left;
 	margin-left: 160px;
